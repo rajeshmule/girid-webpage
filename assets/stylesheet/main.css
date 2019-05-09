@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+   
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  
+}
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+
+.hero {
+  background: url(../images/home-img.jpg);
+  width: 100%;
+  height:800px;
+  background-position: center;
+}
+
+/*wellcome */
+
+.wellcome {
+  padding: 40px;
+  background: #F5E3D7;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 40px;
+  margin-top: 30px;
+  border: 3px solid black;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.send {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 40px;
+  font-size: 22px;
+  padding: 15px 30px;
+  margin-top: 30px;
+}
+
+
+.para {
+  margin: 20px 0;
+  line-height: 1.8;
+  font-size: 22px;
+  color: gray;
+}
+
+span {
+  font-weight: bold;
+}
+
+h1{
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 28px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.p_color, .h2_color {
+  color: #FFFFFF;
+}
+
+.main_article {
+  padding: 40px;
+}
+
+.title {
+  color: #F3CE92;
+}
+
+.about{
+  background: url(../images/about-img.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+
+/*my skills*/
+
+.my_skills {
+  padding: 40px;
+  background: #ECAF4E;
+}
+
+
+
+.main_progress {
+  margin: 30px 0 30px 0;
+}
+
+.progress_heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head_left {
+  font-weight: bold;
+}
+
+.head_right {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+
+.progress_bar{
+  background: #FFFFFF;
+  height: 5px;
+  margin-top: 15px;
+}
+
+.progress {
+  background: #000000;
+  height: 5px;
+  
+}
+
+.p90 {
+  width: 90%;
+}
+
+.p70 {
+  width: 70%;
+}
+
+.p80 {
+  width: 80%
+} 
+
+.icon {
+  color: #FFFFFF;
+  font-size: 50px;
+  margin: 30px;
+ }
+.center {
+  text-align: center;
+}
+
+.media{
+  padding: 40px;
+  background: #F0653E;
+}
+
+.mobile_app {
+  padding: 40px;
+  background: #161616; 
+}
+
+.html5 {
+  padding: 40px;
+  background: #FFFFFF;
+  color: black;
+}
+
+.b_color {
+  color: #161616;
+}
+
+.experience {
+  background: url(../images/experience-img.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+
+.experience_page {
+  padding: 40px;
+  background:#F0653E; 
+}
+
+.education {
+  background: url(../images/education-img.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+
+.icon_mid {
+  color: #FFFFFF;
+  font-size: 40px;
+  margin:20px 20px 0 0;
+  width: 50px;
+
+  
+}
+
+.expe_title {
+ display: grid;
+ grid-template-columns: 90px 1fr;
+}
+
+
+
+.inline{
+  display: inline-block;
+}
+
+.edu_page {
+  padding: 40px;
+  background: #ECAF4E;
+}
+.hello_page {
+  padding: 40px;
+  background: #F0653E;
+}
+
+input, textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ECAF4E;
+  background-color: transparent;
+  margin:10px 0 ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+
+}
+
+.textarea {
+  height: 100px;
+}
+
+.contact {
+   background: url(../images/contact-img.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+.contact_page{
+  width: 100%;
+  height: 800px;
+   padding: 40px;
+  
+}
+
+.contact_title {
+  font-size: 28px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.span_font_style {
+  font-size: 18px;
+  color: gray;
+}
+
+
+.contact_item {
+  padding-top: 30px;
+
+  
+}
+.contact_item i {
+  padding-right: 30px;
+}
+
+.map {
+  background: #F0653E;
+  padding: 30px 0;
+}
+
+
+.design {
+  color: #ECAF4E;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  height: 300px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px ;
+  font-size: 18px;
+}
+
+
+
